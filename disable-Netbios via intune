@@ -1,4 +1,5 @@
-Detection for Netbios
+#Detection for Netbios
+
 $Path = "HKLM:\SYSTEM\CurrentControlSet\services\NetBT\Parameters\Interfaces\tcpip*"
 $Name = "NetbiosOptions"
 $Type = "DWORD"
@@ -38,7 +39,7 @@ Catch {
 
 
 
-Remediation for Netbios
+#Remediation for Netbios
 
 $Path = "HKLM:\SYSTEM\CurrentControlSet\services\NetBT\Parameters\Interfaces\tcpip*"
 $Name = "NetbiosOptions"
